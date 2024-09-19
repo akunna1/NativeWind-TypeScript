@@ -1,6 +1,7 @@
 #### Setup
 - https://www.nativewind.dev/quick-starts/expo
 
+#### Without Native Wind (Stylesheet at the bottom)
 import React from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 
