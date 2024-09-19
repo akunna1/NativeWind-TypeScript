@@ -1,2 +1,5 @@
-# NativeWind-TypeScript
-Converting regular React Native StyleSheet to Native Wind
+#### The major NativeWind components in the code are:
+- StyledView
+- StyledText
+- StyledTouchableOpacity
+- StyledImageBackground
