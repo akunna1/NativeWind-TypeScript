@@ -1,7 +1,21 @@
-#### Setup
-- https://www.nativewind.dev/quick-starts/expo
+Here’s a README for your **NativeWind-TypeScript** project with clear explanation and code samples:
 
-#### Without Native Wind (Stylesheet at the bottom)
+---
+
+# NativeWind-TypeScript
+
+Converting a regular React Native StyleSheet into NativeWind utility-first styling with TypeScript for cleaner, more maintainable code.
+
+## Setup
+
+Follow the official NativeWind Expo quick start guide:
+[https://www.nativewind.dev/quick-starts/expo](https://www.nativewind.dev/quick-starts/expo)
+
+---
+
+## Example: Without NativeWind (Using StyleSheet)
+
+```tsx
 import React from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 
@@ -46,7 +60,7 @@ const styles = StyleSheet.create({
   button: {
     height: 35,
     width: 35,
-    borderRadius: 17.5, // Half of the height to make it a circle
+    borderRadius: 17.5, // Makes circle
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -55,21 +69,20 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   redButton: {
-    backgroundColor: '#f44336', // Red
+    backgroundColor: '#f44336',
   },
   yellowButton: {
-    backgroundColor: '#ffeb3b', // Yellow
-    color: '#000', // Text color for better contrast
+    backgroundColor: '#ffeb3b',
+    color: '#000',
   },
   blueButton: {
-    backgroundColor: '#2196f3', // Blue
+    backgroundColor: '#2196f3',
   },
   greenButton: {
-    backgroundColor: '#4caf50', // Green
+    backgroundColor: '#4caf50',
   },
   brownButton: {
-    backgroundColor: '#795548', // Brown
+    backgroundColor: '#795548',
   },
 });
-
-
+```
